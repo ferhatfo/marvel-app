@@ -14,6 +14,12 @@ pnpm dev
 bun dev
 ```
 
+Create a file named .env.local and paste the following field.
+
+NEXT_PUBLIC_API_BASE_URL=https://gateway.marvel.com/v1/public/
+NEXT_PUBLIC_API_PUBLIC_KEY=95b4686a4d0af8637ca91661f924ab2a
+NEXT_PUBLIC_API_PRIVATE_KEY=3184b307c2f5e0724ba1e26c7d20fe1a8c29c425
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
